@@ -68,6 +68,178 @@ cursor: pointer;
 .shop:hover{
 color:rgb(180, 160, 200);
 }
+.screenshot{
+    width:100%;
+    height:100px;   
+}
+.popular{
+    text-align: center;
+    margin-top: 100px;;
+}
+.product{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Marcellus', serif; 
+    color: rgb(81, 77, 77);
+}
+.trending{
+    font-size: 50px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pro img{
+    width:100%;
+}
+.pro{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+.product-text{
+font-size:18px ;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family:'Open Sans', sans-serif ;
+}
+ .sale{
+  position: relative;
+  top:40px;
+  left:20px; 
+  border:solid;
+  border-radius: 20px;
+  background-color: white;
+  border-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(85, 80, 80);
+} 
+.rating{
+    color:grey;
+    margin-top: 10px;
+}
+.dollarcut{
+    color: rgb(189, 186, 186);
+    text-decoration: line-through;
+    
+}
+.dollar{
+color:rgb(61, 58, 58);
+font-weight: bold;
+font-size: 18px;
+}
+.oliver{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.lorem{
+margin-top:20px;
+font-size: 30px;
+font-family:'Open Sans', sans-serif ;
+
+}
+.jane{
+    margin-top: 100px;
+    width: 500px;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 600px;
+}
+.jame{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.star-rating{
+    color:rgb(215, 150, 29);
+    margin-top: 20px;
+}
+.twocontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 100px;
+}
+.container img{
+    width: 100%;   
+}
+.container{
+    position:relative;
+    height: auto;
+}
+.make{
+    position: absolute;
+top: 70px;
+left:50px;
+color: white;
+}
+.makeup{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-size: 50px;
+    color: white;
+}
+.makeupkit{
+    position: absolute;
+    top: 270px;
+    left:50px;
+    font-size: 18px;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Open Sans', sans-serif ;
+    border:solid ;
+    border-color: white;
+}
+.para{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 100%;
+}
+.delivery{
+    font-size: 25px;
+}
+.bus{
+    display: flex; 
+    gap:20px;  
+}
+.busicon span{
+  height:70px;
+  width:70px; 
+  background-color:  rgb(201, 157, 165);
+  border-radius: 50%;
+font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.busicon span:hover{
+    background-color: black;
+}
+.para1{
+    font-family:'Open Sans', sans-serif  ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 280px;   
+}
+
 .footer{
     width:100%;
     height:500px;
@@ -80,6 +252,7 @@ color:rgb(180, 160, 200);
    margin-left: 60px;
    font-size: 24px;
 }
+
 .foot{
   display: flex;
      justify-content: space-between;  
@@ -121,31 +294,45 @@ color:rgb(180, 160, 200);
 background-color: rgb(201, 157, 165);
 border-color:  rgb(201, 157, 165);
 }
+.bold{
+    margin-top: 100px;
+    margin-left: 65px;
+}
+.tag{
+font-size: 30px;
+}
 .contact{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .con{
     display: flex;
     justify-content: space-between;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .contact-section ul {
 list-style:none;
-
+margin-right: 100px;
+}
+.contact-section ul li{
+margin-bottom: 16px;
 }
 .contact-section ul li a{
     text-decoration: none;
     font-family:'Open Sans', sans-serif ;
-    color: rgb(33, 30, 30);
-    
+    color: rgb(33, 30, 30); 
 }
 .contact-section ul li a:hover{
     color:rgb(180, 160, 200);
 }
 .policy ul{
 list-style:none;
-
+margin-right: 100px;
 } 
+.policy ul li{
+    margin-bottom: 16px;
+}
 .policy ul li a{
  text-decoration: none;
     font-family:'Open Sans', sans-serif ;
