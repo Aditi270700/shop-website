@@ -1,0 +1,192 @@
+.hero {
+  background-image: url(https://centroesteticamaya.com/wp-content/uploads/2022/08/bg-06.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: white;
+}
+.hero .navbar .nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.logo {
+  cursor: pointer;
+}
+#beauty {
+  color: rgb(180, 160, 200);
+  font-family: "Open Sans", sans-serif;
+}
+.logotag {
+  font-size: 30px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.nav ul a:hover {
+  color: rgb(201, 157, 165);
+}
+.icon ol {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.icon ol li a {
+  color: black;
+}
+ .content{
+    position: absolute;
+    top:200px;
+    left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+} 
+.us{
+    font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lorem{
+    font-size: 18px;
+    color: rgb(156, 150, 150);
+    font-family:"Open Sans", sans-serif ;
+}
+.icon-location{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif ;
+     line-height: 30px;
+    margin-top: 30px;
+}
+.icon-location:hover{
+    color:  rgb(201, 157, 165);
+}
+.contact-form {
+  width: auto;
+  height: auto;
+  background-color: rgb(248, 247, 248);
+  text-align: center;
+  margin-top: 100px;
+}
+.contact-form .box {
+  margin-top: 50px;
+}
+.contact-form .contact {
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+}
+.contact-form label {
+  margin-bottom: 15px;
+  margin-right: 50px;
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.contact-form input {
+  padding: 10px 14px;
+  width: 500px;
+  border: solid;
+  border-color: rgb(199, 175, 199);
+  border-width: 0.2px;
+}
+.contact-form textarea {
+  padding: 50px 180px;
+  border: solid;
+  border-color: rgb(199, 175, 199);
+  border-width: 0.3px;
+}
+.contact-form .send {
+  margin-top: 100px;
+  padding: 5px 20px;
+  color: white;
+  background-color: black;
+  border: solid;
+  border-color: black;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-form .send:hover {
+  background-color: rgb(204, 170, 176);
+  border-color: rgb(204, 170, 176);
+}
+.message{
+    display: flex;
+    gap:50px;
+}
+.column{
+  margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#click {
+  display: none;
+}
+label {
+  display: none;
+  cursor: pointer;
+  color: rgb(201, 157, 165);
+}
+@media screen and (max-width: 768px) {
+  label {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 10px;
+  }
+  .hero .navbar .nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color:white;
+    display: none;
+    width: 100%;
+    height: 200px;
+    line-height: 30px;
+  }
+  .hero .navbar .nav ul li a{
+    color:  rgb(201, 157, 165);
+  }
+  .icon ol li {
+    display: none;
+  }
+  #click:checked ~ .hero .navbar .nav ul {
+    display: block;
+  }
+  .message{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.contact-form label {
+  margin: auto;
+  width: 100%; 
+}
+.contact-form input {
+text-align: center;
+margin-top: 30px;
+width: 100%;
+}
+.contact-form textarea {
+  margin-top: 30px;
+}
+}
+@media screen and (max-width: 426px) {
+.contact-form label {
+  margin: auto;
+}
+}
+
+

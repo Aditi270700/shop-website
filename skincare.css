@@ -3,7 +3,6 @@
   justify-content: space-between;
   height: 80px;
   background-color: white;
-  
 }
 .hero .navbar .nav ul {
   list-style: none;
@@ -37,7 +36,7 @@
   cursor: pointer;
 }
 .hero .navbar .icon ol li a{
-  color: black;
+  color:black;
 }
 .home {
   width: 100%;
@@ -241,7 +240,7 @@ label {
     height: 200px;
     line-height: 30px;
   }
-  .hero .navbar .nav ul li a{
+   .hero .navbar .nav ul li a{
     color:  rgb(201, 157, 165);
   }
   .icon ol li {
@@ -254,7 +253,7 @@ label {
     display: grid;
     grid-template-columns: 1fr;
   }
-.footer{
+  .footer{
 height:auto;
   }
 }
@@ -276,4 +275,4 @@ height:auto;
   }
 }
 
-/*# sourceMappingURL=makeup.css.map */
+/*# sourceMappingURL=skincare.css.map */

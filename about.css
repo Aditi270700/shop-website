@@ -1,9 +1,15 @@
+.hero {
+  background-image: url(https://www.anwearhub.com/wp-content/uploads/2022/08/bg-05.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .hero .navbar {
   display: flex;
   justify-content: space-between;
   height: 80px;
   background-color: white;
-  
 }
 .hero .navbar .nav ul {
   list-style: none;
@@ -12,95 +18,79 @@
   justify-content: center;
   gap: 20px;
 }
-.hero .navbar .logo {
+.logo {
   cursor: pointer;
 }
-.hero .navbar #beauty {
+#beauty {
   color: rgb(180, 160, 200);
   font-family: "Open Sans", sans-serif;
 }
-.hero .navbar .logotag {
+.logotag {
   font-size: 30px;
 }
-.hero .navbar .nav ul a {
+.nav ul a {
   text-decoration: none;
   color: black;
   font-family: "Open Sans", sans-serif;
 }
-.hero .navbar .nav ul a:hover {
+.nav ul a:hover {
   color: rgb(201, 157, 165);
 }
-.hero .navbar .icon ol {
+.icon ol {
   list-style: none;
   display: flex;
   gap: 20px;
   cursor: pointer;
 }
-.hero .navbar .icon ol li a{
+.icon ol li a {
   color: black;
 }
-.home {
+.content{
+    position: absolute;
+    top:200px;
+    left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+} 
+.why {
+  text-align: center;
+}
+.para {
+  margin-top: 70px;
   width: 100%;
 }
-.home .makeup {
-  font-family: "Open Sans", sans-serif;
-  margin-top: 60px;
-  margin-left: 60px;
-  color: rgb(156, 150, 150);
-}
-.home .make {
-  margin-left: 60px;
-  font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.home .showing {
-  margin-top: 60px;
-  margin-left: 60px;
-  color: rgb(156, 150, 150);
-  font-family: "Open Sans", sans-serif;
-}
-
-.pro {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
+.para2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 30px;
 }
-.pro img {
-  width: 100%;
+.delivery {
+  font-size: 25px;
 }
-.pro .product-text {
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.bus {
+  display: flex;
+  gap: 20px;
+}
+.busicon span {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(201, 157, 165);
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.busicon span:hover {
+  background-color: black;
+}
+.para1 {
   font-family: "Open Sans", sans-serif;
-}
-.pro .sale {
-  position: relative;
-  top: 40px;
-  left: 20px;
-  border: solid;
-  border-radius: 20px;
-  background-color: white;
-  border-color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: rgb(85, 80, 80);
-}
-.pro .rating {
-  color: grey;
-  margin-top: 10px;
-}
-.pro .dollarcut {
-  color: rgb(189, 186, 186);
-  text-decoration: line-through;
-}
-.pro .dollar {
-  color: rgb(61, 58, 58);
-  font-weight: bold;
   font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  
 }
 
 .footer {
@@ -108,22 +98,24 @@
   height: 500px;
   background-color: rgb(251, 232, 251);
   margin-right: 40px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
-.footer .footer-content {
+.footer-content {
   margin-top: 40px;
   margin-left: 60px;
   font-size: 24px;
 }
-.footer .foot {
+
+.foot {
   display: flex;
   justify-content: space-between;
 }
-.footer .footer-section {
+
+.footer-section {
   margin: 40px;
   margin-right: 60px;
 }
-.footer .footer-section .email {
+.footer-section .email {
   height: 50px;
   width: 500px;
   padding-top: 7px;
@@ -136,11 +128,11 @@
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
 }
-.footer .email {
+.email {
   text-align: left;
   font-family: "Open Sans", sans-serif;
 }
-.footer .footer-section .subscribe {
+.footer-section .subscribe {
   height: 55px;
   width: 200px;
   padding-top: 10px;
@@ -151,67 +143,67 @@
   margin-right: 25px;
   font-size: 15px;
 }
-.footer .subscribe:hover {
+.subscribe:hover {
   background-color: rgb(201, 157, 165);
   border-color: rgb(201, 157, 165);
 }
-.footer .bold {
+.bold {
   margin-top: 100px;
   margin-left: 65px;
 }
-.footer .tag {
+.tag {
   font-size: 30px;
 }
-.footer .contact {
+.contact {
   display: flex;
   justify-content: space-between;
 }
-.footer .con {
+.con {
   display: flex;
   justify-content: space-between;
   margin-right: 50px;
   margin-top: 50px;
 }
-.footer .contact-section ul {
+.contact-section ul {
   list-style: none;
   margin-right: 100px;
 }
-.footer .contact-section ul li {
+.contact-section ul li {
   margin-bottom: 16px;
 }
-.footer .contact-section ul li a {
+.contact-section ul li a {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   color: rgb(33, 30, 30);
 }
-.footer .contact-section ul li a:hover {
+.contact-section ul li a:hover {
   color: rgb(180, 160, 200);
 }
-.footer .policy ul {
+.policy ul {
   list-style: none;
   margin-right: 100px;
 }
-.footer .policy ul li {
+.policy ul li {
   margin-bottom: 16px;
 }
-.footer .policy ul li a {
+.policy ul li a {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   color: rgb(33, 30, 30);
 }
-.footer .policy ul li a:hover {
+.policy ul li a:hover {
   color: rgb(180, 160, 200);
 }
-.footer .three-icon ul {
+.three-icon ul {
   list-style: none;
   display: flex;
   gap: 20px;
   font-size: 22px;
 }
-.footer .three-icon ul li a {
+.three-icon ul li a {
   color: rgb(33, 30, 30);
 }
-.footer .three-icon ul li a:hover {
+.three-icon ul li a:hover {
   color: rgb(201, 157, 165);
 }
 #click {
@@ -250,16 +242,16 @@ label {
   #click:checked ~ .hero .navbar .nav ul {
     display: block;
   }
-  .pro {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-.footer{
+  .footer{
 height:auto;
   }
 }
 @media screen and (max-width: 426px) {
-.foot {
+  .para2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot {
     flex-direction: column;
   }
   .footer-section .email {
@@ -274,6 +266,6 @@ height:auto;
   .con {
     flex-direction: column;
   }
+  
 }
 
-/*# sourceMappingURL=makeup.css.map */

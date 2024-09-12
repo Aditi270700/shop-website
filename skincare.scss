@@ -4,7 +4,8 @@
 display:flex;
 justify-content: space-between;
 height: 80px;
-background-color:$primary-color;
+background-color: $primary-color;
+
 .nav ul{
     list-style: $para1;
     display: $para2;
@@ -12,13 +13,12 @@ background-color:$primary-color;
     justify-content: $para4;
     gap: $para5;
 }
-
 .logo{
     cursor: pointer;
 }
 #beauty{
     color: rgb(180, 160, 200);
-    font-family:$font ;
+    font-family:$font;
 }
 .logotag{
     font-size:30px ;
@@ -27,10 +27,9 @@ background-color:$primary-color;
      text-decoration: none;
     color: black;
     font-family: $font;
-
-&:hover{
-    color: rgb(201, 157, 165);
 }
+.nav ul a:hover{
+    color: rgb(201, 157, 165);
 }
 .icon ol{
 list-style: none;
@@ -131,7 +130,7 @@ font-size: 18px;
     width:500px;
     padding-top: 7px;
     padding-bottom: 7px; 
-    background-color: $primary-color;
+    background-color:$primary-color;
     color: rgb(91, 89, 89);
     border: solid; 
     border-width: 0.5px;
@@ -141,7 +140,7 @@ font-size: 18px;
 }
 .email{
     text-align: left;
-     font-family: $font;
+     font-family:$font;
 }
 .footer-section .subscribe{
     height:55px;
@@ -218,27 +217,5 @@ color: rgb(33, 30, 30);
 .three-icon ul li a:hover{
     color:rgb(201, 157, 165) ;
 }
-
-}
-@media screen and (max-width: 768px){
-   label {
-    display: block;
-    position: absolute;
-    right: 20px;
-    font-size: 20px;
-    top: 10px;
-  }
-  .hero .navbar .nav ul {
-    flex-direction: column;
-    position: absolute;
-    top: 80px;
-    left: 0px;
-    background-color: whitesmoke;
-    display: none;
-    width: 100%;
-    height: 300px;
-  } 
-  .icon ol li {
-    display: none;
-  }
+    
 }

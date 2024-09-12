@@ -1,0 +1,7 @@
+@mixin commoncode($para1, $para2, $para3, $para4, $para5 ){
+list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}

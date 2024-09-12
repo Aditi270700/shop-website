@@ -3,7 +3,6 @@
   justify-content: space-between;
   height: 80px;
   background-color: white;
-  
 }
 .hero .navbar .nav ul {
   list-style: none;
@@ -39,6 +38,7 @@
 .hero .navbar .icon ol li a{
   color: black;
 }
+
 .home {
   width: 100%;
 }
@@ -276,4 +276,4 @@ height:auto;
   }
 }
 
-/*# sourceMappingURL=makeup.css.map */
+/*# sourceMappingURL=haircare.css.map */
