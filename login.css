@@ -61,4 +61,21 @@
 .contact-form .login:hover {
   background-color: rgb(204, 170, 176);
   border-color: rgb(204, 170, 176);
-}/*# sourceMappingURL=login.css.map */
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .contact-form input{
+    padding: 10px 14px;
+  width: 350px;
+  }
+  .contact-form textarea {
+  padding: 50px 80px;
+}
+  
+}
+/*# sourceMappingURL=login.css.map */

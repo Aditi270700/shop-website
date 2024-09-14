@@ -183,9 +183,21 @@ width: 100%;
   margin-top: 30px;
 }
 }
+@media screen and (max-width: 768px) {
+.contact-form input {
+  margin-top: 20px;
+  width: 450px;
+}
+
+}
 @media screen and (max-width: 426px) {
-.contact-form label {
-  margin: auto;
+ .contact-form input {
+ margin-top: 20px;
+  width: 250px;
+} 
+.contact-form textarea {
+  margin-top: 30px;
+  padding: 40px 40px;
 }
 }
 
